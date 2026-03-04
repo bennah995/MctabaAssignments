@@ -1,3 +1,4 @@
+// a funtion to merge arrays
 function mergeArrays(a, b){
   const merged = [...a, ...b];
   return merged;
@@ -8,6 +9,7 @@ console.log(mergeArrays(
   b=[3, 4]));
 
 
+  // greetings function
 function createGreeting(name = "Guest", greeting = "Hello"){
   return `${greeting}, ${name}!`;
 }
@@ -17,6 +19,7 @@ console.log(createGreeting("Benard"));
 console.log(createGreeting("Benard", "Jambo"));
 
 
+// total price funtion
 function calculateTotal(price, tax = 0.16){
   let totalPrice = price + (tax * price);
   return totalPrice;
