@@ -5,8 +5,8 @@ function myDestination(username = "Traveller", ...cities){
 
   return `${username}'s favorite destinations are: ${allCities.join(", ")}`;
 }
-// console.log(myDestination("Benard", "Nairobi", "Tanzania"));
-// console.log(myDestination());
+console.log(myDestination("Benard", "Nairobi", "Tanzania"));
+console.log(myDestination());
 
 
 // hobbies
@@ -16,8 +16,8 @@ function listHobbies(userName = "Person", ...hobbies){
 
   return `${userName}'s hobbies are: ${allHobbies.join(", ")}`;
 }
-// console.log(listHobbies("Alice", "cycling", "swimming"));
-// console.log(listHobbies());
+console.log(listHobbies("Alice", "cycling", "swimming"));
+console.log(listHobbies());
 
 
 // favorite foods
